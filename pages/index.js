@@ -12,6 +12,8 @@ export default function Home({ articles }) {
   )
 }
 
+
+// getStaticProps : (Static Generation): Fetch data at build time.
 /////////////// Fetching data from using an api but data is store in root directory ////////////
 export const getStaticProps = async () => {
   const res = await fetch(`${server}/api/articles`)
@@ -26,6 +28,7 @@ export const getStaticProps = async () => {
 
 
 //////////////// Fetching data Direct from api end point ///////////////////////////////////
+// getStaticProps: (Static Generation): Specify dynamic routes to pre-render pages based on data.
 
 // export const getStaticProps = async () => {
 //   const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)

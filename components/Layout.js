@@ -21,4 +21,10 @@ const Layout = ({ children }) => {
     )
 }
 
-export default Layout
+export default Layout;
+
+
+// Here children is a reserved keyword for rending dynamic child components.
+// Here, children brings child of home page (pages/index.js) component (ArticleList, ArticleItem.js files), but it does not brings the children of other page like about page.
+
+//  if you wish to have same pattern for about page, then you need to create an another layout page.
