@@ -1,2 +1,12 @@
-npx create-next-app
-npm run dev
+# npx create-next-app
+# npm run dev
+
+# npm run build
+This build command will generate a "out" directory. Where static file will be there.
+
+# Running a static website pages:
+First install serve package as follows:
+## npm i -g serve
+Then run the serve package to run the static pages at a specific port (e.g 8000) as follows:
+## serve -s <folder_name> -p 8000
+
