@@ -1,5 +1,6 @@
 import ArticleList from '../components/ArticleList';
 import { server } from '../config/index';
+import Image from 'next/image';
 
 export default function Home({ articles }) {
   console.log("articles", articles);
@@ -7,6 +8,8 @@ export default function Home({ articles }) {
 
     <div>
       <ArticleList articles={articles} />
+
+      <Image src="/images/vikram.jpg" height={100} width={120} />
     </div>
 
   )
