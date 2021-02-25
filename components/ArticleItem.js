@@ -1,4 +1,4 @@
-import articleStyles from '../styles/Article.module.css';
+import articleStyles from '../styles/Article.module.scss';
 import Link from 'next/link';
 
 const ArticleItem = ({ article }) => {

@@ -1,6 +1,8 @@
 import '../styles/globals.css';
 import Layout from '../components/Layout';
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';

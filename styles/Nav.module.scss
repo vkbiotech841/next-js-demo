@@ -1,11 +1,18 @@
 .nav {
-  height: 50px;
-  padding: 10px;
+  height: 70px;
+  padding: 20px;
   background: #000;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  transition: box-shadow 0.1s ease 0s, background-color 0.1s ease 0s;
+  width: 100%;
+  max-width: 100%;
 }
 
 .nav ul {
@@ -13,8 +20,11 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  text-decoration: none;
 }
 
 .nav ul li a {
   margin: 5px 15px;
+  color: white;
+  text-decoration: none;
 }

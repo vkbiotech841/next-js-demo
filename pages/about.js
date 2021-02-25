@@ -14,6 +14,10 @@ const about = () => {
                 Material UI typography
             </Typography>
 
+            <button className="btn btn-secondary btn-sm">
+                Bootstrap primary button
+            </button>
+
             <style jsx>
                 {`
                     .myInlineCss{

@@ -14,3 +14,7 @@ Then run the serve package to run the static pages at a specific port (e.g 8000)
 ##npm install sass
 simple change the <filename>.module.scss and import in the component, where this file is about to use.
 
+# Adding bootstrap
+## npm install bootstrap
+then import bootstrap to the _app.js file
+
