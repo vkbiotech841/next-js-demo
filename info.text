@@ -10,3 +10,7 @@ First install serve package as follows:
 Then run the serve package to run the static pages at a specific port (e.g 8000) as follows:
 ## serve -s <folder_name> -p 8000
 
+# Working with sass:
+##npm install sass
+simple change the <filename>.module.scss and import in the component, where this file is about to use.
+
