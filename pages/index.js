@@ -8,7 +8,6 @@ export default function Home({ articles }) {
 
     <div>
       <ArticleList articles={articles} />
-
       <Image src="/images/vikram.jpg" height={100} width={120} />
     </div>
 
