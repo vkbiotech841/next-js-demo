@@ -20,4 +20,4 @@ Meta.defaultProps = {
     description: 'Get the notation of Indian classical music or raaga.',
 }
 
-export default Meta
+export default Meta;
