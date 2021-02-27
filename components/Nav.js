@@ -13,6 +13,12 @@ const Nav = () => {
                 <li>
                     <Link href='/about'>About</Link>
                 </li>
+                <li>
+                    <Link href='/material_ui'>Material Ui Examples</Link>
+                </li>
+                <li>
+                    <Link href='/bootstrap_examples'>Bootstrap Examples</Link>
+                </li>
             </ul>
 
         </nav>

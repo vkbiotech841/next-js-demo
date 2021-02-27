@@ -41,7 +41,11 @@ const article = ({ article }) => {
                 </div>
 
                 <div className="mt-5 float-right">
-                    <Link href='/' >Go Back</Link>
+                    <Link href='/'>
+                        <a>
+                            Go Back
+                        </a>
+                    </Link>
                 </div>
             </div>
         </>

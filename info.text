@@ -18,3 +18,17 @@ simple change the <filename>.module.scss and import in the component, where this
 ## npm install bootstrap
 then import bootstrap to the _app.js file
 
+
+# For deployment, first create a production build:
+## npm run build
+This command creates a ".next" folder where production build code will be there.
+
+# In you wish to get only static site, the we need to use following commands:
+## npm run build & npm run export
+This command creates a "out" folder, where production build code for static site will be there.
+
+# Firebase integration with next.js
+## npm i -g firebase-tools
+## firebase init
+Now, select your project, select hosting, select mutiple page application, project destination as "out" directory. Once, all done. project will be deployed to the firebase.
+
